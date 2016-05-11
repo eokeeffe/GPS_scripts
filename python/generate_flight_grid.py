@@ -53,3 +53,4 @@ if __name__=='__main__':
     #for i in xrange(len(grid_lons)): print "%.5f,%.5f"%(grid_lats[i],grid_lons[i])
     for point in grid:
         print "%.5f,%.5f"%(point[0],point[1])
+    print len(grid)
